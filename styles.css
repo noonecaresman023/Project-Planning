@@ -42,6 +42,39 @@ section{
     margin: 5em;
 }
 
+/** LINKS STYLING **/
+/* Link styles */
+
+a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+a:link{
+    color: rgb(28, 121, 209);
+}
+
+/* it refers to links that are not yet visited */
+
+a:visited{
+    color: rgb(255, 185, 54);
+}
+
+/* Changes the color of the link when the link has been visited */
+
+a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/* Changes the color of the link and changes your cursor to a pointer when hovering on a link*/
+
+
+a:active{
+    color: rgb(17, 255, 17);
+}
+
 
 
 /** NAVIGATION BAR STYLES **/
