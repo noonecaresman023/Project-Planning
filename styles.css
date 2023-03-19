@@ -290,6 +290,10 @@ footer a:link{
     color: rgb(197, 196, 196);
 }
 
+footer a:visited{
+    color: rgb(197, 196, 196);
+}
+
 footer a:hover{
     color: rgb(118, 118, 118);
 }
